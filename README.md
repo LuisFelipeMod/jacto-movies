@@ -103,6 +103,8 @@ sudo docker-compose up -d
 cd backend
 sudo composer update --no-dev
 
+#Volte para a pasta raiz
+cd ..
 # Depois suba o container novamente
 sudo docker-compose up -d
 ```
