@@ -98,6 +98,15 @@ API_AUTH_DRIVER=jwt
 docker-compose up -d
 ```
 
+4. Caso dê algum erro, tente atualizar o composer.lock dentro da pasta backend:
+```bash
+cd backend
+composer update --no-dev
+
+# Depois suba o container novamente
+docker-compose up -d
+```
+
 4. Entre no container do back end:
 ```bash
 sudo docker exec -it laravel_app bash
