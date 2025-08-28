@@ -11,7 +11,7 @@ class FilmeController
  
     public function index()
     {
-        $filmes = Filme::paginate(10);
+        $filmes = Filme::paginate(12);
         return response()->json($filmes, 200);
     }
 
@@ -54,7 +54,7 @@ class FilmeController
 
         $validated = $request->validate([
             'titulo' => 'sometimes|required|string',
-            'ano' => 'sometimes|required|string',
+            'ano' => 'sometimes|required|integer',
             'genero' => 'sometimes|required|string',
             'sinopse' => 'nullable|string',
             'poster_url' => 'nullable|string'
