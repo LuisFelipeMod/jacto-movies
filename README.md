@@ -8,7 +8,7 @@ Aplicação web full-stack para gerenciar filmes, incluindo autenticação de us
 
 - **Frontend**: React, Redux Toolkit, React Router, Axios, CSS Modules
     
-- **Backend**: Laravel 10, PHP 8
+- **Backend**: Laravel 12, PHP 8
     
 - **Banco de dados**: MySQL via Docker
     
