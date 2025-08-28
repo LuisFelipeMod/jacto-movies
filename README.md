@@ -95,7 +95,7 @@ API_AUTH_DRIVER=jwt
     
 
 ```bash
-sudo docker-compose up -d
+sudo docker-compose up -d --build
 ```
 
 4. Caso dê algum erro ou o container do back end não suba, tente atualizar o composer.lock dentro da pasta backend:
@@ -106,7 +106,7 @@ sudo composer update --no-dev
 #Volte para a pasta raiz
 cd ..
 # Depois suba o container novamente
-sudo docker-compose up -d
+sudo docker-compose up -d --build
 ```
 
 4. Entre no container do back end:
