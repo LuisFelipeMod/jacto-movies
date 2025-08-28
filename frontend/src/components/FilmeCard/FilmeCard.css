@@ -1,0 +1,71 @@
+.filme_card__box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filme_card {
+  display: flex;
+  flex-direction: column;
+  background-color: #0F1720;
+  border-radius: 12px;
+  border: 1px solid #1B2A36;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: calc(100% / 3 - 1.875rem);
+  margin: 1rem 0.625rem;
+  transition: transform 0.2s;
+}
+
+.filme_card:hover {
+  transform: translateY(-5px);
+}
+
+.filme_poster {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+}
+
+.filme_info {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.filme_titulo {
+  font-size: 1.2rem;
+  color: #E6F4FF;
+  margin: 5px 0;
+}
+
+.filme_ano,
+.filme_genero {
+  font-size: 1rem;
+  color: #555;
+}
+
+.btn_detalhes {
+  display: inline_block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #0f88e2;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.btn_detalhes:hover {
+  background-color: #0c6bbd;
+}
+
+@media(max-width: 768px){
+  .filme_card{
+    width: calc(100% / 2 - 1.875rem);
+  }
+}
+
+@media(max-width: 570px){
+  .filme_card{
+    width: calc(100% / 1 - 1.875rem);
+  }
+}

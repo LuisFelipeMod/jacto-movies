@@ -1,0 +1,64 @@
+.filme_form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.filme_form h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #0f88e2;
+}
+
+.filme_form div {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.filme_form label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.filme_form input,
+.filme_form textarea {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.filme_form input:focus,
+.filme_form textarea:focus {
+  outline: none;
+  border-color: #0f88e2;
+}
+
+.filme_form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.filme_form .btn {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #0f88e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.filme_form .btn:hover {
+  background-color: #0d6bbf;
+}
