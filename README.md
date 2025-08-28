@@ -101,7 +101,7 @@ sudo docker-compose up -d --build
 4. Caso dê algum erro ou o container do back end não suba, tente atualizar o composer.lock dentro da pasta backend:
 ```bash
 cd backend
-sudo composer update --no-dev
+sudo composer update
 
 #Volte para a pasta raiz
 cd ..
