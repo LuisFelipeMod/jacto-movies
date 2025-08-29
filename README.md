@@ -10,7 +10,7 @@ Aplicação web full-stack para gerenciar filmes, incluindo autenticação de us
     
 - **Backend**: Laravel 12, PHP 8
     
-- **Banco de dados**: MySQL via Docker
+- **Banco de dados**: PostgreSQL via Docker
     
 - **Autenticação**: JWT
     
