@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import ArrowDown from "../assets/ArrowDown.svg";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { useNavigate } from "react-router-dom"; // se estiver usando react-router-dom
+import { useNavigate } from "react-router-dom"; 
 import { logoutUser } from "../redux/authSlice";
 
 export default function DashboardLayout({ children }) {
@@ -34,7 +34,7 @@ export default function DashboardLayout({ children }) {
             height={40}
           />
 
-          <strong>Luis Modesto</strong>
+          <strong>User</strong>
 
           <img
             className="user_arrow__down"
